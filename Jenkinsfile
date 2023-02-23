@@ -19,5 +19,10 @@ pipeline{
 	              echo'Deploying..'
 	              sh'./deploy.sh'
 	         }
+		      stage('Deploy'){
+	          steps{
+	              echo'Deploying..'
+	              sh'./deploy.sh'
+	         }
 	      }
 }
